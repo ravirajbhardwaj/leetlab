@@ -1,0 +1,19 @@
+# Ignore node_modules
+node_modules/
+
+# VS code
+/.vscode
+
+# Ignore build output directories (like dist, build, etc.)
+dist/
+build/
+
+*.env
+.env
+.env.*
+
+/log
+
+# Ignore specific files (optional)
+
+tsconfig.json

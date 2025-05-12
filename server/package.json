@@ -1,0 +1,24 @@
+{
+  "name": "leetlab-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "ravirajbhardwaj",
+  "license": "ISC",
+  "type": "module",
+  "description": "Backend for leetlab",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3",
+    "prisma": "^6.7.0"
+  }
+}
